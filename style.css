@@ -1,0 +1,89 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+    --font: 'Roboto', 'Roboto Mono', 'Reddit Sans Condensed', 'Open Sans', 'Work Sans';
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#navbarNav li{
+    font-family: 'Open Sans', var(--font);
+}
+
+.navbar {
+    background-color: white;
+}
+
+.text-center{
+    color: var(--light-color);
+}
+
+.form-label{
+    color: var(--light-color);
+}
+
+.text-lg-start{
+    color: var(--dark-color);
+}
+
+.carousel-inner img {
+    height: 600px;
+    object-fit: cover;
+    padding: 2em;
+    border-radius: 4em;
+}
+
+h2 {
+    margin: 30px 0;
+}
+
+.card {
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: var(--light-color);
+    padding: 20px;
+}
+
+footer .btn {
+    margin: 5px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; 
+    }
+
+    .carousel-inner img {
+        height: 400px;
+    }
+
+    h2 {
+        font-size: 24px; 
+    }
+
+    .card {
+        margin-bottom: 20px; 
+    }
+
+    footer {
+        text-align: center; 
+    }
+}
