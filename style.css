@@ -16,8 +16,10 @@ body {
     background-attachment: fixed;
 }
 
-#navbarNav li{
+#navbarNav li a{
     font-family: 'Open Sans', var(--font);
+    font-size: 1.3em;
+    transition: 0.3s;
 }
 
 .navbar {
