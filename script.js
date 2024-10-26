@@ -3,7 +3,8 @@ $(document).ready(function () {
     const texts = [
         "Experience luxury and comfort at Luxzur Hotel.",
         "Book your stay with us and enjoy world-class amenities.",
-        "Relax, unwind, and make unforgettable memories."
+        "Relax, unwind, and make unforgettable memories.",
+        "Join in our relaxing activities outdoors and indoors."
     ];
     let textIndex = 0; 
     let charIndex = 0; 
@@ -26,3 +27,10 @@ $(document).ready(function () {
 
     type();
 });
+
+$('#contactForm').on('submit', function(e) {
+    e.preventDefault(); 
+    alert('Thank you for your message! We will get back to you shortly.'); 
+    this.reset(); 
+});
+

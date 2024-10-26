@@ -64,6 +64,19 @@ footer {
     padding: 20px;
 }
 
+#bookBtn{
+    position: relative;
+    right: 5em;
+    font-family: 'Bebas Neue', var(--font);
+    font-style: normal;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+
+#exampleModal{
+    transition: 0.5s;
+}
+
 footer .btn {
     margin: 5px;
 }
