@@ -64,6 +64,14 @@ footer {
     padding: 20px;
 }
 
+.carousel-inner .d-block{
+    transition: 0.5s;
+}
+
+.carousel-control-next-icon{
+    background-color: #343a40;
+}
+
 #bookBtn{
     position: relative;
     right: 5em;
